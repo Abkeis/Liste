@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{399DCCB7-4A66-46D3-B74E-0C3EE60B1AB9}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Debug" Name="Debug">
+      <Items>
+        <StartupItem ItemId="{399DCCB7-4A66-46D3-B74E-0C3EE60B1AB9}" ItemName="WebApplication1" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nouralddenalmoqry/Projects/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="65" column="6" />
+      <Breakpoint file="/Users/nouralddenalmoqry/Projects/WebApplication1/WebApplication1/Views/Home/Index.cshtml" relfile="WebApplication1/Views/Home/Index.cshtml" line="26" column="1" />
+      <Breakpoint file="/Users/nouralddenalmoqry/Projects/WebApplication1/WebApplication1/Views/Home/Index.cshtml" relfile="WebApplication1/Views/Home/Index.cshtml" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="WebApplication1/Program.cs" Line="18" Column="1" />
+      <File FileName="WebApplication1/Models/Student.cs" Line="8" Column="40" />
+      <File FileName="WebApplication1/Models/Students.cs" Line="10" Column="18" />
+      <File FileName="WebApplication1/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Controllers/HomeController.cs" Line="55" Column="30" />
+      <File FileName="WebApplication1/Views/Home/Index.cshtml" Line="28" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplication1" expanded="True">
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,58 @@
+﻿@model Students;
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Student-List</h1>
+    <div class="such-feld">
+        <label for="suche">Student_Name eingeben</label>
+        <input type="search" id="suche" placeholder="Suche...">
+    </div>
+
+    @foreach (Student s in Model.StudentsList)
+        {
+        <div class="container">
+            <div class="tabelle">
+                <table>
+                    <tr>
+                        <th>Student</th>
+                        <th>Adresse</th>
+                    </tr>
+
+                    <tr>
+                        <td>@s.Name</td>
+                        <td>@s.Adresse</td>
+                        <td>@s.Nummer</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">&nbsp;</div>
+            <div class="row">
+                <div class="col-2">Student</div>
+                <div class="col-4"><input type="text" id="userInput" /></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Nummer</div>
+                <div class="col-4"><input type="text" id="userInput" /></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Adresse</div>
+                <div class="col-4"><input type="text" id="messageInput" /></div>
+                <div class="col-6">
+                    <input type="button" id="sendButton" value="Entfernen" />
+                </div>
+            </div>
+          
+            <script src="~/js/signalr/dist/browser/signalr.js"></script>
+            <script src="~/js/chat.js"></script>
+    }
+
+            <div class="col-6">
+                <input type="button" id="sendButton" value="Einfügen" />
+            </div>
+        </div>
+}
